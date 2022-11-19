@@ -40,7 +40,7 @@ console.log(`Строка после split("").reverse().join() - массив? 
 console.log(`Выходная строка + split("").reverse().join() = ${outStr1_4}`);
 
 console.log(`--------------------------------------------------`);
-console.log(`Некорректный вариант`)ж
+console.log(`Некорректный вариант`);
 let outStr2_1=inputStr1.split();
 console.log(`Тип строки split() = ${typeof(outStr2_1)}`);
 console.log(`Строка после split() - массив? answer=${Array.isArray(outStr2_1)}`);
