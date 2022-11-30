@@ -24,30 +24,25 @@ console.log(`Длина входной строки = ${inputStr1.length}`);
 
 console.log(`--------------------------------------------------`);
 let outStr1_1=inputStr1.split("");
-console.log(`Тип строки split("") = ${typeof(outStr1)}`);
-console.log(`Строка после split("") - массив? answer=${Array.isArray(outStr1_1)}`);
-console.log(`Выходная строка + split("") = ${outStr1_1}`);
+console.log(`Входная строка + split("")' = ${outStr1_1}`);
 
 let outStr1_2=inputStr1.split("").reverse();
-console.log(`Выходная строка + split("") + reverse = ${outStr1_2}`);
+console.log(`Входная строка + .split("").reverse = ${outStr1_2}`);
 
 let outStr1_3=inputStr1.split("").reverse().join("");
-console.log(`Выходная строка + split("") + reverse + join("") = ${outStr1_3}`);
+console.log(`Входная строка + .split("").reverse.join("") = ${outStr1_3}`);
 
+console.log(`--------------------------------------------------`);
 let outStr1_4=inputStr1.split("").reverse().join();
-console.log(`Тип строки split("").reverse().join() = ${typeof(outStr1_4)}`);
-console.log(`Строка после split("").reverse().join() - массив? answer=${Array.isArray(outStr1_4)}`);
-console.log(`Выходная строка + split("").reverse().join() = ${outStr1_4}`);
+console.log(`Входная строка + .split("").reverse().join() = ${outStr1_4}`);
 
 console.log(`--------------------------------------------------`);
 console.log(`Некорректный вариант`);
 let outStr2_1=inputStr1.split();
-console.log(`Тип строки split() = ${typeof(outStr2_1)}`);
-console.log(`Строка после split() - массив? answer=${Array.isArray(outStr2_1)}`);
-console.log(`Выходная строка + split() = ${outStr2_1}`);
+console.log(`Входная строка + .split() = ${outStr2_1}`);
 
 let outStr2_2=inputStr1.split().reverse();
-console.log(`Выходная строка + split().reverse() = ${outStr2_2}`);
+console.log(`Входная строка + .split().reverse() = ${outStr2_2}`);
 
 let outStr2_3=inputStr1.split().reverse().join();
-console.log(`Выходная строка + split().reverse().join() = ${outStr2_3}`);
+console.log(`Входная строка + .split().reverse().join() = ${outStr2_3}`);
